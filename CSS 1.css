@@ -1,12 +1,13 @@
 body
     {
-        background-image: url(DALL·E-2024-12-18-14.29.42-A-realistic-futuristic-image-depicting-the-concept-of-Artificial-General-Intelligence-AGI-and-its-transformative-impact-on-society-aligned-with-th.webp);
+        background-image: url(Circuitos\ Neon\ em\ Fundo\ Futurista.png);
         font-family: 'Times New Roman', Times, serif;
         margin-bottom: 0px;
         background-repeat: no-repeat;
         background-size: cover;
-        color: yellow;
+        color: whitesmoke;
         text-shadow: 2px 2px 5px black;
+        
         
     }
     
@@ -76,3 +77,57 @@ form {
 font-size: 50px;
 
 }
+
+
+
+.conteudo {
+   
+      display: none;
+            position: absolute;
+
+            min-width: 150px;
+}
+
+.dropdown {
+   display: inline-block;
+            position: relative;
+
+
+}
+
+.conteudo a {
+            display: block;
+            padding: 12px;
+        }
+
+ .dropdown:hover .conteudo {
+            display: block;
+        }
+
+.pilha {
+    width: 600px;
+    margin: 50px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.pilha img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 3px solid white;
+    box-shadow: 0 2px 8px #0005;
+    margin-bottom: -210px;
+    position: relative;
+}
+
+/* Ordem das imagens */
+.pilha img:nth-child(1) { z-index: 7; }
+.pilha img:nth-child(2) { z-index: 6; }
+.pilha img:nth-child(3) { z-index: 5; }
+.pilha img:nth-child(4) { z-index: 4; }
+.pilha img:nth-child(5) { z-index: 3; }
+.pilha img:nth-child(6) { z-index: 2; }
+.pilha img:nth-child(7) { z-index: 1; }
